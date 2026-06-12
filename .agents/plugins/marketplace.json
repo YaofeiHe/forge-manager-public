@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "description": "Run forge-manager-workflow from the installed public package CLI.",
+      "name": "forge-manager-workflow",
+      "path": "plugins/forge-manager-workflow"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+display_name: Forge Manager
+short_description: Query and manage forge project progress from real local data.
+default_prompt: $forge-manager 今天项目状态

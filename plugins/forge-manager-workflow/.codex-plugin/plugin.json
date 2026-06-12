@@ -1,0 +1,9 @@
+{
+  "description": "Run forge-manager-workflow from the installed public package CLI.",
+  "name": "forge-manager-workflow",
+  "schema_version": "v1",
+  "skills": [
+    "skills/forge-manager-workflow/SKILL.md"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forge Manager</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Forge Manager</h1>
+      <div class="controls">
+        <button data-action="structure" data-view="tree">Structure Tree</button>
+        <button data-action="structure" data-view="tree" data-active="1">Active Tree</button>
+        <button data-action="structure" data-view="list">Structure List</button>
+        <button data-action="status" data-view="list">Today List</button>
+        <button data-action="status" data-view="tree">Today Tree</button>
+      </div>
+      <form id="project-form">
+        <input id="project-id" value="forge" aria-label="Project id">
+        <select id="project-view" aria-label="View">
+          <option value="list">list</option>
+          <option value="tree">tree</option>
+        </select>
+        <button>Project</button>
+      </form>
+    </header>
+    <main>
+      <pre id="output">Loading...</pre>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
